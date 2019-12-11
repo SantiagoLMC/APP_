@@ -1,0 +1,40 @@
+.homeBTNS :hover {
+    -fx-background-color: #ff895e;   
+    
+}
+
+.image1{
+	-fx-background-image: url("../img/Bosque.jpg");
+	-fx-background-size:100.0%;
+	-fx-min-height: 132px;
+    -fx-min-width: 128px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center 8px;
+}
+.image2{
+	-fx-background-image: url("../img/Puentes.png");
+	-fx-background-size: cover, auto;
+	
+	-fx-min-height: 132px;
+    -fx-min-width: 128px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center 8px;
+	
+}
+.image3{
+	-fx-background-image: url("../img/Windows_field.jpg");
+	-fx-background-size: cover, auto;
+	
+	-fx-min-height: 132px;
+    -fx-min-width: 128px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center 8px;
+	
+}
+.Button{
+	-fx-opacity: 0.10;
+	
+}
+.JFXButton{
+	
+}

@@ -1,0 +1,31 @@
+.logo{
+-fx-text-fill: green;
+-fx-background-radius: 50.0;
+-fx-background-color: white;
+-fx-font-family: "Dokdo";
+-fx-font-size: 50.0;
+}
+.Button{
+	
+}
+.mytitle{
+    -fx-font-family: "Dokdo";
+    /*-fx-font-family: "Shadows Into Light";*/
+    -fx-font-size: 50.0;
+    
+}
+.Pane1{
+	-fx-background-image: url("Bosque.jpg");
+	-fx-background-size: cover, auto;
+	-fx-background-repeat: no-repeat;
+}
+.Pane2{
+	-fx-background-image: url("Puentes.png");
+	-fx-background-size: cover, auto;
+	-fx-background-repeat: no-repeat;
+}
+.Pane3{
+	-fx-background-image: url("Windows_field.jpg");
+	-fx-background-size: cover, auto;
+	-fx-background-repeat: no-repeat;
+}

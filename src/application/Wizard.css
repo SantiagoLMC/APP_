@@ -1,0 +1,25 @@
+.image1{
+	-fx-background-image: url("../img/Catedral_de_Santiago.jpg");
+	-fx-background-size:150%;
+	-fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-border-style: solid;
+}
+.image2{
+	-fx-background-image: url("../img/Notre_Dame.jpg");
+	-fx-background-size:135%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-border-width: 5px;
+    -fx-border-style: solid;
+}
+.image3{
+	-fx-background-image: url("../img/Vaticano.jpg");
+	-fx-background-size:165%;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-border-width: 5px;
+    -fx-border-style: solid;
+}

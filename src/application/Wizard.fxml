@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SplashWizard">
+   <children>
+      <Pane fx:id="pane3" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #199119;">
+         <children>
+            <Label layoutX="179.0" layoutY="21.0" text="Catedral de Santiago de Compostela">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="93.0" layoutY="42.0" prefHeight="125.0" prefWidth="546.0" text="La Santa Apostólica y Metropolitana Iglesia Catedral&#10;de Santiago de Compostela es un templo de culto católico&#10;situado en la ciudad homónima, en el centro de la provincia&#10;de La Coruña, en Galicia (España). Acoge el que, según la tradición,&#10;es el sepulcro del Apóstol Santiago, lo cual convirtió al templo en uno&#10;de los principales destinos de peregrinación de Europa durante la Edad Media&#10;a través del llamado Camino de Santiago, una ruta religiosa que comunicaba la&#10;península ibérica con el resto del continente. " textAlignment="CENTER" textFill="WHITE" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Catedral_de_Santiago.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #274D98;">
+         <children>
+            <Label layoutX="271.0" layoutY="31.0" text="Vaticano">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="52.0" prefHeight="116.0" prefWidth="578.0" text="La Ciudad del Vaticano, oficialmente Estado de la Ciudad del Vaticano (en latín: Status Civitatis Vaticanæ;&#10;Nota 1​ en italiano: Stato della Città del Vaticano),Nota 2​ o simplemente el Vaticano, es un Estado soberano&#10;sin salida al mar, cuyo territorio consta de un enclave7​dentro de la ciudad de Roma, en la península itálica. Es uno de los seis&#10;microestados europeos." />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Vaticano.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="pane1" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #C4322B;">
+         <children>
+            <Label layoutX="28.0" layoutY="54.0" prefHeight="116.0" prefWidth="558.0" text="La catedral de Nuestra Señora (en francés, Cathédrale Notre-Dame) es una catedral de culto católico,&#10;sede de la archidiócesis de París, la capital de Francia. Dedicada a la Virgen María, madre de Jesucristo,&#10;se sitúa en la pequeña isla de la Cité, rodeada por las aguas del río Sena. Es uno de los monumentos más populares de la&#10;capital francesa.Se trata de uno de los edificios más señeros y antiguos de cuantos se construyeron en estilo gótico. &#10;El uso innovador de la bóveda de crucería y del arbotante, los enormes y coloridos rosetones y el naturalismo y la abundancia&#10;de decoración escultórica lo diferencian de la arquitectura románica." textFill="WHITE" />
+            <Label layoutX="219.0" layoutY="25.0" text="Catedral de Notre Dame">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Notre_Dame.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <AnchorPane layoutY="331.0" prefHeight="69.0" prefWidth="600.0">
+         <children>
+            <Label fx:id="countLabel" layoutX="285.0" layoutY="20.0" text="1/3">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="ant" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="4.0" onMousePressed="#backAction" prefHeight="62.0" prefWidth="62.0" text="&lt;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="desp" alignment="CENTER" contentDisplay="CENTER" layoutX="538.0" layoutY="4.0" onMousePressed="#nextAction" prefHeight="62.0" prefWidth="62.0" text="&gt;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
